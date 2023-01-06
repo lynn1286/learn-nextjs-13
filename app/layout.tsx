@@ -28,6 +28,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <li>
                 <Link href="/degenerate">退化渲染</Link>
               </li>
+              <li>
+                <Link className="cursor-pointer underline" href="/server-async-fetching">
+                  Async Server Component Fetching
+                </Link>
+              </li>
+
+              <li>
+                <Link className="cursor-pointer underline" href="/client-fetching">
+                  Client Component Fetching
+                </Link>
+              </li>
             </ul>
           </nav>
           {children}
